@@ -1,0 +1,55 @@
+Model          : alexnet_epoch_100.h5
+Batch_size     : 50
+Learning rate  : 0.001
+Optimizer      : adam
+Epochs         : /100
+
+Training loss: 0.17834405601024628
+Training accuracy: 0.955406904220581
+
+Validation loss: 2.1263837814331055
+Validation accuracy: 0.680942177772522
+
+Test loss: 1.7512797117233276
+Test accuracy: 0.7047619223594666
+
+Validation - Confusion Matrix
+[[  8   5  29   5   5]
+ [ 17   1  24   5   5]
+ [ 46  12 125  26  36]
+ [ 10   8  32   6  10]
+ [  6   5  24   6  11]]
+
+Validation - Classification Report
+              precision    recall  f1-score   support
+
+  black_bear       0.09      0.15      0.12        52
+grizzly_bear       0.03      0.02      0.02        52
+    not_bear       0.53      0.51      0.52       245
+  polar_bear       0.12      0.09      0.11        66
+  teddy_bear       0.16      0.21      0.18        52
+
+    accuracy                           0.32       467
+   macro avg       0.19      0.20      0.19       467
+weighted avg       0.33      0.32      0.32       467
+
+
+Test - Confusion Matrix
+[[ 1  0  9  1  0]
+ [ 0  0 10  1  1]
+ [11  3 27  5  7]
+ [ 0  2  8  3  5]
+ [ 2  0  8  0  1]]
+
+Test - Classification Report
+              precision    recall  f1-score   support
+
+  black_bear       0.07      0.09      0.08        11
+grizzly_bear       0.00      0.00      0.00        12
+    not_bear       0.44      0.51      0.47        53
+  polar_bear       0.30      0.17      0.21        18
+  teddy_bear       0.07      0.09      0.08        11
+
+    accuracy                           0.30       105
+   macro avg       0.18      0.17      0.17       105
+weighted avg       0.29      0.30      0.29       105
