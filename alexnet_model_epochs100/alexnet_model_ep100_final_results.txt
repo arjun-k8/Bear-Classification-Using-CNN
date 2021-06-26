@@ -4,14 +4,14 @@ Learning rate  : 0.001
 Optimizer      : adam
 Epochs         : /100
 
-Training loss: 0.17834405601024628
-Training accuracy: 0.955406904220581
+Training loss: 0.0474
+Training accuracy: 0.9855
 
-Validation loss: 2.1263837814331055
-Validation accuracy: 0.680942177772522
+Validation loss: 2.2821
+Validation accuracy: 0.5824
 
-Test loss: 1.7512797117233276
-Test accuracy: 0.7047619223594666
+Test loss: 1.7512
+Test accuracy: 0.7047
 
 Validation - Confusion Matrix
 [[  8   5  29   5   5]
